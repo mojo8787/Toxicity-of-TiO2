@@ -53,4 +53,4 @@ If you'd like to contribute to this project, please fork the repository and make
 
 ## Author
 Almotasem bellah younis 
-- PhD Student in Bioinformatics
+- PhD Student in Microbiology at Mendel University in Brno, Czech Republic
