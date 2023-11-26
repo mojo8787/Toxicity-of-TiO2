@@ -44,9 +44,7 @@ The dataset used in this project is based on a study of gene expression levels. 
 The machine learning model will output predictions, and performance metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) will be displayed. These metrics can be used to evaluate the performance of the model.
 
 ## Citations
-
-If this project is based on a published study, please cite the original work here.
-
+(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156564)
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
