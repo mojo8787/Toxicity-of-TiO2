@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "TiO₂ Nanoparticle Toxicity Gene Expression ML Pipeline"
+abstract: "A machine learning pipeline for analyzing gene expression data to predict TiO₂ nanoparticle toxicity effects. Implements feature selection (Mutual Information, RFE), Support Vector Regression with hyperparameter tuning, and visualization tools."
+authors:
+  - family-names: "Younis"
+    given-names: "Almotasem Bellah"
+    orcid: "https://orcid.org/0000-0003-2070-2811"
+    email: "motasem.youniss@gmail.com"
+    affiliation: "Mendel University in Brno"
+version: "1.0.0"
+date-released: "2023-08-28"
+license: MIT
+repository-code: "https://github.com/mojo8787/TiO2-Toxicity-ML"
+keywords:
+  - machine learning
+  - bioinformatics
+  - gene expression
+  - TiO2 nanoparticles
+  - toxicity
+  - feature selection
+  - support vector regression
+references:
+  - type: article
+    authors:
+      - family-names: "Younis"
+        given-names: "Almotasem Bellah"
+    title: "Synthesis and characterisation of TiO₂–geraniol nanoparticles with synergistic antibacterial activity"
+    journal: "BMC Microbiology"
+    year: 2023
+    doi: "10.1186/s12866-023-02955-7"
