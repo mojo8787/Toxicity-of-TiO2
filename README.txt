@@ -1,6 +1,6 @@
-Microarray Data Analysis for Criminal Case Against K.D.
+Microarray Data Analysis — TiO2 Nanoparticle Toxicity
 Introduction
-This project aims to analyze microarray gene expression data related to a criminal case against K.D. The goal is to identify significant genes and pathways for further investigation.
+This project analyzes microarray gene expression data (NCBI GEO accession GSE156564) to identify significant genes and statistical features associated with TiO2 nanoparticle toxicity.
 
 Installation
 To run the scripts, ensure that you have the following Python packages installed:
@@ -16,13 +16,11 @@ Usage
 Data Preprocessing
 preprocessing.py: Handles missing values and normalizes the data.
 Data Imputation
-imputation.py: Imputes missing values in the dataset.
+The preprocessing step also imputes missing values in the dataset.
 (Additional scripts and their usage can be added as the project progresses)
 
 To run a script, navigate to the script's directory and execute:
 
-bash
-Copy code
 python <script_name>.py
 File Structure
 /data: Contains the raw and processed data files.
@@ -37,5 +35,3 @@ Project by [Almotasem Bellah Younis]
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-You can add this README.md to your project repository. As you make progress in your project, update the README to reflect new scripts, findings, or changes in usage.

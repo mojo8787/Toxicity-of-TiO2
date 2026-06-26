@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the preprocessed data
-preprocessed_data = pd.read_excel("C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\Preprocessed_Data.xlsx", index_col=0)
+preprocessed_data = pd.read_excel("Preprocessed_Data.xlsx", index_col=0)
 
 # Separate features and target variable
 features = preprocessed_data.drop(['score', 'ProbeID', 'GeneSymbol'], axis=1)

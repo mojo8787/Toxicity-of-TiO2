@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the preprocessed data
-preprocessed_data = pd.read_excel("C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\Preprocessed_Data.xlsx", index_col=0)
+preprocessed_data = pd.read_excel("Preprocessed_Data.xlsx", index_col=0)
 
 # Separate features and target variable
 features = preprocessed_data.drop(['score', 'ProbeID', 'GeneSymbol'], axis=1)
@@ -68,6 +68,6 @@ print("Test set score with best parameters: ", best_score)
 result_df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
 
 # Save to an Excel file
-result_df.to_excel("C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\Predictions.xlsx")
+result_df.to_excel("Predictions.xlsx")
 
 print("Predictions saved to 'Predictions.xlsx'")

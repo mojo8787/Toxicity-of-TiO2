@@ -42,12 +42,12 @@ def preprocess_data(excel_path, sheet_name):
     return preprocessed_data
 
 # Define the path and sheet name based on your specific case
-data_path = "C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\GSE156564_Processed_data_NRCWE001.xlsx"
+data_path = "GSE156564_Processed_data_NRCWE001.xlsx"
 sheet_name = "1.control_0-NRCWE001"
 
 # Perform preprocessing
 preprocessed_data = preprocess_data(data_path, sheet_name)
 
 # Save the preprocessed data to an Excel file
-preprocessed_data.to_excel("C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\Preprocessed_Data.xlsx")
+preprocessed_data.to_excel("Preprocessed_Data.xlsx")
 

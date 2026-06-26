@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Load the data
 # Skip initial metadata rows and transpose the DataFrame to have samples as rows
-data_path = "C:\\Users\\Motasem Younis\\Desktop\\Criminal_case_against_K.D\\GSE156564_series_matrix.txt"
+data_path = "GSE156564_series_matrix.txt"
 
 data = pd.read_csv(data_path, sep="\t", comment="!", index_col=0).T
 
